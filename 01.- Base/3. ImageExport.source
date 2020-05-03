@@ -1,0 +1,4 @@
+# Cross compiler path
+
+export CROSS_SYSROOT=@{CROSS_COMPILER_PREFIX}/@{CONFIG_CROSS_TARGET}
+export PATH="@{CROSS_COMPILER_PREFIX}/bin:$PATH"
