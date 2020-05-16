@@ -35,11 +35,6 @@ OPTIONS+=(--disable-multilib)
 # Cmpiler will search that directory within dirname for native system headers rather than the default /usr/include
 OPTIONS+=(--with-native-system-header-dir=/include)
 
-# Set linux headers
-#OPTIONS+=(--with-headers=$CROSS_SYSROOT/include/linux)
-#OPTIONS+=(--with-headers=$CROSS_SYSROOT/include)
-#OPTIONS+=(--with-build-sysroot=$CROSS_SYSROOT)
-
 # Consider dir as the root of a tree that contains
 OPTIONS+=(--with-sysroot=$CROSS_SYSROOT)
 

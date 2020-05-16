@@ -25,12 +25,6 @@ OPTIONS+=(--target=$CONFIG_CROSS_TARGET)
 # Do not use Native Language Support
 OPTIONS+=(--disable-nls)
 
-# not valid
-#OPTIONS+=(--with-sysroot=$CROSS_SYSROOT)
-#OPTIONS+=(--with-arch=$ARM_VERSION)
-#OPTIONS+=(--with-float=$ARM_FLOAT_TYPE)
-#OPTIONS+=(-with-fpu=vfp)
-
 
 # Build steps
 ../binutils-2.31/configure ${OPTIONS[@]}

@@ -17,10 +17,6 @@ OPTIONS+=(--build=$MACHTYPE)
 OPTIONS+=(--host=$CONFIG_CROSS_TARGET)
 OPTIONS+=(--target=$CONFIG_CROSS_TARGET)
 
-#OPTIONS+=(--with-headers=$CROSS_SYSROOT/include)
-#OPTIONS+=(--with-build-sysroot=$CROSS_SYSROOT)
-#OPTIONS+=(--with-sysroot=$CROSS_SYSROOT)
-
 # Specify which cpu variant the compiler should generate code for by default
 OPTIONS+=(--with-arch=$ARM_VERSION)
 
