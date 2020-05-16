@@ -26,7 +26,7 @@ OPTIONS+=(--target=$CONFIG_CROSS_TARGET)
 OPTIONS+=(--disable-nls)
 
 # not valid
-#OPTIONS+=(--with-sysroot)
+#OPTIONS+=(--with-sysroot=$CROSS_SYSROOT)
 #OPTIONS+=(--with-arch=$ARM_VERSION)
 #OPTIONS+=(--with-float=$ARM_FLOAT_TYPE)
 #OPTIONS+=(-with-fpu=vfp)

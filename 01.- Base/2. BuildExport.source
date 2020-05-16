@@ -4,5 +4,5 @@ export CONFIG_CROSS_TARGET='arm-linux-gnueabihf'
 export MAKE_ARCH='arm'
 export ARM_VERSION='armv6'
 export ARM_FLOAT_TYPE='hard'
+export ARM_FLOATING_POINT_UNIT_TYPE='vfp'
 
-#export CONFIG_COMMON_OPTIONS='--with-arch=armv6 -with-fpu=vfp --with-float=hard --disable-multilib'
