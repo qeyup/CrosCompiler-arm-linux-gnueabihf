@@ -1,9 +1,16 @@
-# How build image
+# Install DockerBuild tool
 
-```bash
-sudo ./DockerBuild.sh
+```bash 
+sudo pip3 install DockerBuild
 ```
 
+# Build docker image
+
+```bash
+DockerBuild
+```
+
+**note:** Execute this step at ``Dockerfile`` file path.
 
 # External references
 
